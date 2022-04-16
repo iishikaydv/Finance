@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+.arrow>h1{
+    color: aliceblue;
+}
+
+.Sign>h1{
+    /*justify-content: space-between;*/
+    text-align: center;
+    margin-top: 4rem;
+    color: aliceblue;
+}
+
+.Sign>p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.form>form>p{
+    margin-block: 1rem;
+    color: white;
+}
+.form{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: blue;/* a:vivted means when we have visited the link it turns into respective color */
+}
+
+a:hover{
+    color: blue;  /* when we put cursor on link it turns blue */
+}
+
+input[type=text] {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 30%;
+    padding-block: 1rem;
+    
+}
+
+input[type=submit] {
+    background: white;
+    color: black;
+    border-style: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color: white;
+    height: 50px;
+    width: 150px;
+    font: bold15px arial,sans-serif;
+    margin-top: 3rem;
+}
+
+.footer{
+    color:aliceblue;
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
