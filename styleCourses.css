@@ -1,0 +1,34 @@
+.content1{
+    display: flex;
+    /*margin-top: 2.5vw;*/
+}
+
+.content2{
+    display: flex;
+    /*margin-top: 2.5vw;*/
+}
+
+
+.content1>div{
+    width: 30vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+    text-align: center;
+    margin-top: 1rem;/* gives gap between laptop image and content */
+}
+.content2>div{
+    width: 30vw;
+    margin-top: 2.5vw;
+    margin-left: 2.5vw;
+    text-align: center;
+    margin-top: 1rem;/* gives gap between laptop image and content */
+}
+
+.content1>div>p{
+    padding: 1rem; /* gives padding between html css javasrcript and their respective content */
+}
+
+.content2>div>p{
+    padding: 1rem; /* gives padding between html css javasrcript and their respective content */
+}
+
